@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://roynlpvpd8lh"]
+
+[ext_resource type="PackedScene" uid="uid://k2w355vo07ds" path="res://models/Meshy_AI_Casual_Low_Poly_Man_0928004805_texture.glb" id="1_tc0k8"]
+
+[node name="Node3D" type="Node3D" unique_id=675583930]
+
+[node name="Meshy_AI_Casual_Low_Poly_Man_0928004805_texture" parent="." unique_id=1467937820 instance=ExtResource("1_tc0k8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.129836, 0.026292384, 1.3647077)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1486982799]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9929014, 0.7326695, 2.7162282)
