@@ -1,11 +1,18 @@
 [gd_scene format=3 uid="uid://roynlpvpd8lh"]
 
 [ext_resource type="PackedScene" uid="uid://k2w355vo07ds" path="res://models/Meshy_AI_Casual_Low_Poly_Man_0928004805_texture.glb" id="1_tc0k8"]
+[ext_resource type="Script" uid="uid://raylji6m12uk" path="res://player.gd" id="1_y1nyx"]
 
 [node name="Node3D" type="Node3D" unique_id=675583930]
+script = ExtResource("1_y1nyx")
 
 [node name="Meshy_AI_Casual_Low_Poly_Man_0928004805_texture" parent="." unique_id=1467937820 instance=ExtResource("1_tc0k8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.129836, 0.026292384, 1.3647077)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1486982799]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9929014, 0.7326695, 2.7162282)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1593596924]
+transform = Transform3D(-0.9937512, 0.038343705, -0.10482531, 0.013588404, 0.9737174, 0.2273539, 0.110787824, 0.22450879, -0.96815383, -2.0970118, 0.8996195, 0.63471246)
+current = true
+fov = 117.87036
